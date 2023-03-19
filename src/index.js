@@ -6,10 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 import WeatherSearch from "./WeatherSearch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const roo = createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <App />
-    <WeatherSearch />
   </React.StrictMode>
 );
 
